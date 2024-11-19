@@ -1,0 +1,51 @@
+theme = ["hugo-theme-stack"]
+enableInlineShortcodes = true
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Joeffrey Wong'
+sectionPagesMenu = 'main'
+
+[menu]
+    [[menu.social]]  # New menu named "social"
+    name = "LinkedIn"  # Link name (displayed text)
+    url = "https://www.linkedin.com/in/joeffreywong/"  # Target URL
+    [menu.social.params]  # Optional parameters for the link
+        newTab = true  # Open in a new tab (optional)
+        icon = ""  # Icon name (assuming Font Awesome)
+
+    [[menu.social]] 
+    name = "GitHub"
+    url = "https://github.com/221934420a"
+    [menu.social.params]  # Use the same section for multiple links
+        newTab = true
+        icon = "brand-github"
+
+# [[menu.main]]
+#     name = "Home"
+#     url = "/"
+#     weight = 10
+#     identifier = "home"
+#     [menu.main.params]
+#         icon = "home"
+#         newTab = false
+
+        
+[params]
+mainSections = ['posts']
+featuredImageField = 'image'
+rssFullContent = true
+
+[params.footer]
+customText = ''
+
+[params.dateFormat]
+
+
+[params.sidebar]
+emoji = ""
+subtitle = "Trying to make my personal website."
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "img/UK_traffic_sign_625.1.svg.png"
