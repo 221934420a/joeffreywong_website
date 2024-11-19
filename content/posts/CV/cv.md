@@ -6,4 +6,4 @@ draft = false
 categories = ['CV'] 
 +++
 
-[Download CV](../../../assets/JOEFFREY_WONG.pdf)
+[Download CV](https://github.com/221934420a/joeffreywong_website/blob/master/assets/JOEFFREY_WONG.pdf)
