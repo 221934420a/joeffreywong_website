@@ -6,5 +6,4 @@ draft = false
 categories = ['CV'] 
 +++
 
-xfun::embed_file("D:\Job doc\JOEFFREY_WONG.pdf")
-{{< embed-pdf url="assets\JOEFFREY_WONG.pdf" >}}
+[Download CV](../../../assets/JOEFFREY_WONG.pdf)
